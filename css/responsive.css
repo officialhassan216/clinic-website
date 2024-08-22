@@ -1,0 +1,196 @@
+ /* Targeting various screen sizes based on max-width */
+@media (max-width: 1920px) {
+  /* CSS rules for screens up to 1920px wide */
+}
+
+@media (max-width: 1600px) {
+  /* CSS rules for screens up to 1600px wide */
+}
+
+@media (max-width: 1536px) {
+  /* CSS rules for screens up to 1536px wide */
+}
+
+@media (max-width: 1440px) {
+  /* CSS rules for screens up to 1440px wide */
+}
+
+@media (max-width: 1400px) {
+  /* CSS rules for screens up to 1400px wide */
+}
+
+@media (max-width: 1366px) {
+  /* CSS rules for screens up to 1366px wide */
+}
+
+@media (max-width: 1280px) {
+  /* CSS rules for screens up to 1280px wide */
+}
+
+@media (max-width: 1024px) {
+  /* CSS rules for screens up to 1024px wide */
+  .service_wrapper .card {
+    background-color: transparent;
+    border: 0.625rem solid var(--bg-light-blue);
+    box-shadow: none;
+    padding: 1.5rem;
+}
+/* .about_wrapper .about-animate {
+  top: 47%;
+  left: 1.5rem;
+  max-width: 166px;
+} */
+}
+
+@media (max-width: 991px) {
+  /* CSS rules for screens up to 991px wide */
+  .card {
+    border-radius: .625rem;
+    color: var(--text-gray);
+    box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 / 8%);
+    padding: 1.75rem 1.125rem 1.6875rem;
+    transition: all .4s;
+    border: 0;
+    -webkit-transition: all .4s;
+}
+}
+
+@media (max-width: 800px) {
+  /* CSS rules for screens up to 800px wide */
+  h2 {
+    color: var(--text-white);
+    font-size: 1.875rem;
+    font-weight: 600;
+    font-family: var(--secondary-font);
+}
+.blog_wrapper .blog-content {
+  background-color: var(--bg-light-blue);
+  padding: 0.5rem;
+}
+}
+
+@media (max-width: 767px) {
+  /* CSS rules for screens up to 767px wide */
+  /* .card {
+    height: 320px;
+} */
+.about_wrapper .position-relative {
+  width: 70%;
+}
+.about_wrapper .about-animate {
+  top: 44%;
+  width: 40%;
+  left: -0.5rem;
+}
+.main-btn {
+  padding: 0.05rem 0.575rem;
+}
+/* .mt-4 {
+  margin-top: -0.5rem !important;
+} */
+.team_wrapper .card {
+  padding: 0.25rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+/* .pt-4 {
+  padding-top: 0.5rem !important;
+} */
+embed, iframe, img, object {
+  max-width: 94%;
+}
+.service_wrapper .card .main-btn {
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px !important;
+}
+}
+
+@media (max-width: 768px){
+.about_wrapper .about-animate {
+  top: 46%;
+  left: 0.5rem;
+  width: 149.7px;
+}
+}
+
+@media (max-width: 600px) {
+  /* CSS rules for screens up to 600px wide */
+.about_wrapper .card {
+  width: 100%;
+}
+.main-btn {
+  padding: 0.05rem 0.175rem;
+  font-size: 0.9rem;
+}
+/* .mt-4 {
+  margin-top: 0.5rem !important;
+} */
+.team_wrapper .card {
+  padding: 0.75rem;
+}
+/* .pt-4 {
+  padding-top: -0.5rem !important;
+} */
+h4 {
+  font-size: 1.2rem;
+}
+.appointment_wrapper {
+  background-position: -320px !important;
+}
+/* embed, iframe, img, object {
+  max-width: 90%;
+} */
+}
+
+@media (max-width: 540px) {
+  /* CSS rules for screens up to 540px wide */
+}
+
+@media (max-width: 480px) {
+  /* CSS rules for screens up to 480px wide */
+}
+
+@media (max-width: 425px) {
+  /* CSS rules for screens up to 425px wide */
+}
+
+@media (max-width: 375px) {
+  /* CSS rules for screens up to 375px wide */
+}
+
+@media (max-width: 320px) {
+  /* CSS rules for screens up to 320px wide */
+  h3 {
+    font-size: 1.25rem;
+}
+.banner_wrapper p {
+  max-width: 100%;
+}
+.banner_wrapper .animate-img .aimg1 {
+  left: -4.6875rem;
+}
+.main-btn {
+  font-size: 1rem;
+}
+.appointment_wrapper {
+  background-size: 990px !important;
+}
+.main-btn {
+  font-size: 0.9rem;
+  padding: 0.35rem 0.575rem;
+}
+.testimonial_wrapper .container .card img {
+  width: 60%;
+}  
+.testimonial_wrapper .card {
+  justify-content: center;
+  align-items: center;
+}
+.about_wrapper .about-animate {
+  top: 39%;
+  left: -0.5rem;
+  width: 100.7px;
+}
+}
